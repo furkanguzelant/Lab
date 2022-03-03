@@ -19,6 +19,8 @@ public class StudentSearch {
         throw new Exception("There is no student with the given name!");
     }
 
+    // Finds all students
+    // with the same name
     public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
             Exception {
         ArrayList<Student> result = new ArrayList<Student>();
